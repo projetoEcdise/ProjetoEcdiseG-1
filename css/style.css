@@ -1,163 +1,56 @@
-/* === GERAL === */
-html {
-    font-size: calc(12px + 0.390625vw);
+html{
+    background-color: #dcd5cf;
 }
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 a{
-    text-decoration: none;
+    text-decoration: none; /* remove o sublinhado dos links */
 }
-h2{
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: black;
-}
-button{
-    border-radius: 20px;
-    padding: 10px 20px 10px 20px;
-    margin: 2.5vw 0 0 0;
-    font-size: 1.1rem;
-}
-/* === TOPO === */
+
 header{
-    margin: 2vw 10vw;
+    background:url(../images/fundo1.png);
+    margin: 0px 0px 0px 0px;
 }
+
 header nav{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
-    align-items: center;
-}
-header nav ul{
+    padding: 5vw 10vw 5vw 10vw;
+     align-items: center;
+     
+
+& ul {
     display: flex;
+   
 }
-header nav ul li{
-    margin: 0 0 0 20px;
-}
-header nav ul li a{
-    color: #a2a1a4;
-}
-header nav ul li a.atual{
-    color: black;
+& li {
+    margin: 0px 10px 0px 10px;
 }
 
-/* === BANNER === */
-section.banner{
-    display: flex;
-    margin: 0 10vw;
+& a{
+     color: rgb(255, 217, 167);
 }
-section.banner div.imagem{
-    margin: 0 2vw 0 0;
 }
-section.banner h2{
-
-    margin: 8vw 0 2.5vw 0vw;
-}
-section.banner h2 span{
-    color: #458FF6;
-}
-section.banner p{
-    color: #a2a1a4;
-    margin: 0 15vw 0 0;
-}
-section.banner p button{
-    background: #458FF6;
-    color: white;
-    border-radius: 20px;
-    padding: 10px 20px 10px 20px;
-    border: none;
-    margin: 2.5vw 0 0 0;
-    font-size: 1.1rem;
-}
-
-/* === CUIDADOS === */
-section.cuidados{
-    margin: 5vw 10vw 5vw 10vw;
-    text-align: center;
-}
-section.cuidados h2{
-    border-bottom: 1px solid black;
-    padding: 0 0 1vw 0;
-    display: inline-block;
-}
-section.cuidados > p{
-    margin: 3vw 15% 3vw 15%;
-}
-section.cuidados p button{
-    color: #458FF6;
-    border: 1px solid #458FF6;
-    background: transparent;
+header span h1{
+color: #fbf7ba;
+   margin: 20px 80px;
+    font-size: 5vw;
 
 }
-section.cuidados ul{
-    display: flex;
-    text-align: left;
-}
-section.cuidados ul li{
-    border: 2px solid gainsboro;
-    padding: 25px;
-    border-radius: 20px;
-    margin: 0 3vw 0 0;
-}
-section.cuidados ul li:last-child{
-    margin: 0;
-}
-section.cuidados ul li h3{
-    margin: 1vw 0 1vw 0;
-    font-weight: bold;
-}
-section.cuidados ul li p{
-    font-size: 0.8rem;
-    color: rgb(175, 175, 175);
-    line-height: 1.1rem;
+header p button{
+   background-color: #1b0a02;
+color: #7f7e5c;
+padding:30px 50px 30px 50px;
+margin: 4vw 4vw;
+ 
 }
 
-/* === DEPOIMENTOS === */
-section.depoimentos{
-    text-align: center;
-    background-color: #5A98F2;
-    margin: 0 10vw 0 10vw;
-    border-radius: 20px;
-    padding: 60px;
-}
-section.depoimentos h2{
-    border-bottom: 1px solid white;
-    padding: 0 0 1vw 0;
-    display: inline-block;
-    color: white;
-}
-section.depoimentos div{
-    display: flex;
-    justify-content: center;
-    margin: 3vw 0 0 0;
-}
-section.depoimentos div p{
-    text-align: left;
-    width: 35%;
-    margin: 0 0 0 4vw;
-    color: white;
+section.introducao h2{
+    font-size: 3vw;
+    margin: 50px 80px;
 }
 
-/* === RODAPE === */
-footer{
-    background-color: #5A98F2;
-    color: white;
-    margin: 5vw 0 0 0;
-    padding: 60px 10vw 60px 10vw;
-    display: flex;
-    justify-content: space-between;
-}
-footer div p:first-child{
-    margin: 0 0 3vw 0;
-}
-footer div h4{
-    font-weight: bold;
-    margin: 0 0 1vw 0;
-}
-footer div ul li{
-    margin: 5px 0 5px 0;
-}
-footer a{
-    color: white;
-    font-size: 0.8rem;
+section.introducao p{
+
+    
+
 }
